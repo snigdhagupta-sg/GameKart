@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  font-family: "Times New Roman", Times, serif;
+}
+.head {
+  padding-left: 0.6rem;
+  background-color: rgb(6, 1, 40);
+  color: antiquewhite;
+  text-align: center;
+  height: 52px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back {
+  background-color: rgb(6, 1, 40);
+  color: antiquewhite;
+  font-size: 1.2rem;
+}
+.heading {
+  background-color: rgb(6, 1, 40);
+  color: antiquewhite;
+  font-size: 2rem;
+  font-weight: 700;
+  flex-grow: 1;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.computer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+  background-color: rgb(6, 1, 40);
+  color: antiquewhite;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.option {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+  border: 6px solid antiquewhite;
+}
+.option:hover {
+  border: 6px solid rgb(6, 1, 40);
+  cursor: pointer;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.points {
+  display: flex;
+}
+@media (max-width: 695px) {
+  .option {
+    width: 100px;
+    height: 100px;
+  }
+  .head {
+    padding-top: 35px;
+    background-color: rgb(6, 1, 40);
+    color: antiquewhite;
+    text-align: center;
+    height: 80px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .box {
+    flex-wrap: wrap;
+  }
+}

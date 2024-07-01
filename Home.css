@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(8, 8, 8);
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+  width: 100vw;
+  background-color: rgb(8, 8, 8);
+  color: beige;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.game {
+  width: 100vw;
+  height: 45vh;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.text {
+  text-align: center;
+  font-size: 30px;
+  color: azure;
+  background-color: rgb(47, 46, 46);
+}
+.game:hover {
+  opacity: 1;
+}
+#Rock_Paper_Scissors {
+  background-image: url("Rock_Paper_Scissors.png");
+  background-size: contain;
+}
+#Tic_Tac_Toe {
+  background-image: url("Tic_Tac_Toe.png");
+  background-size: contain;
+}
